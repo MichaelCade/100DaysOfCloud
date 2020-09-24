@@ -6,4 +6,4 @@
 
 ## Social Proof
 
-[Twitter]([link](https://twitter.com/MichaelCade1/status/1309070624862728192?s=20))
+[Twitter](https://twitter.com/MichaelCade1/status/1309070624862728192?s=20)
