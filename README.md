@@ -14,16 +14,16 @@
 Fill in your details where you see this icon ✍️
 We have provided a sample Day Journey entry staring at 0. You can delete this example.
 
-## [✍️ Your Name]'s Cloud Journey
+## Michael's Cloud Journey
 
-[✍️ Introduce yourself]
+Hi I am Michael Cade, I am a Senior Global Technologist at Veeam software, I come from a heavy infrastructure background focusing mostly on Storage but also virtualisation and over the past few years have been skilling up in the cloud mostly focusing on Azure and AWS with an interest around data management. 
 
-[✍️ Tell us why you started this challenge]
+I started the challenge because I feel I work better with a routine and schedule and giving myself 100 days to work on this alongside my day job will provide me with a new skill and hopefully access to a wider community where I hope to share back my learnings. 
 
-[✍️ Tell us where you want to be at the end of the challenge]
+By the end of the challenge I would like to have a good foundational understanding of Google Cloud Platform and possibly the other major hyperscalers as well. 
 
-- [✍️ Link to your Twitter](https://twitter.com/username)
-- [✍️ Link to your LinkedIn](https://www.linkedin.com/in/username)
+- [@MichaelCade1](https://twitter.com/MichaelCade1)
+- [LinkedIn](www.linkedin.com/in/michaelcade1)
 
 ## Stepping out the door
 
