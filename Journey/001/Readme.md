@@ -1,4 +1,4 @@
-# New post title here
+# Day 1 - Getting things setup on GitHub
 
 ## Cloud Research
 
