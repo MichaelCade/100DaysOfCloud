@@ -1,49 +1,42 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+![Day2 Image](https://azurecomcdn.azureedge.net/cvt-43d248655da6be4f41f08257eacdb49cb809555c9f8170ec2b834c21b3bce3b0/images/page/services/azure-vmware/benefit-1.png)
 
-# New post title here
+# COM01-AZ200 - Azure VMware Solution
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+Day 2, I decided to take a look at the 100DaysOfCloudIdeas on the primary repository, link below. The idea for this learning session was to learn more about the Azure VMware Solution that was announced this week at Microsoft Ignite 2020. 
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+- To learn about the Azure VMware Solution Offering
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+[COM01-AZ200 - Azure VMware Solution](https://github.com/100DaysOfCloud/100DaysOfCloudIdeas/blob/master/Projects/COM/COM01/COM01-AZ200.md)
 
-## Try yourself
+Research Links: 
+- [Azure VMware Solution (AVS) - Shannon Kuehn](https://www.youtube.com/watch?v=CqTbq7VMHJk)
+- [Join Shannon for an overview of Microsoft’s next evolution of Azure VMware Solution (AVS)](https://www.youtube.com/watch?v=n-DTMwIJA8Y)
+- [Azure VMware Solution VMware UserCon Session - Florida/Carolina](https://www.youtube.com/watch?v=uUvHgpiOZbc)
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+Questions Answered:
 
-### Step 1 — Summary of Step
+- What is bare metal cloud? 
+  
+  My initial take on Bare Metal Cloud, if we think about IaaS where you get some infrastructure and you can deploy and have your application and workload services running here, Bare metal is going one step further on instead of sharing many different compute platforms (normally the end user would also not have any idea on what these compute nodes were) but bare metal would enable the end user or company to have a specific dedicated physical host where only their data and workloads would maybe run and there would be absolutely no degradation of service with having to compete with other businesses on the shared model. 
 
-![Screenshot](https://via.placeholder.com/500x300)
+- What does AVS provide you with?
 
-### Step 1 — Summary of Step
+  Implementing this solution where IT staff maybe already has fully skilled up on VMware this enables a business to move and start leveraging Microsoft Azure   
 
-![Screenshot](https://via.placeholder.com/500x300)
+- What are AVS Private clouds?
+- What are AVS Clusters?
+- What are AVS Hosts?
+- How often are Private cloud vCenter and NSX-T configurations backed up?
 
-### Step 3 — Summary of Step
+## Time Spent
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+- Add time in total for this session
 
 ## Social Proof
 
