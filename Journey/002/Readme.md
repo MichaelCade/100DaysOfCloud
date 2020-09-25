@@ -40,6 +40,4 @@ Questions Answered:
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/MichaelCade1/status/1309529065741848577?s=20)
