@@ -1,52 +1,24 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<!-- This is a template you can use for quick progress days. It removes a lot of the steps we encourage you to share in the longer template 000-DAY-ARTICLE-LONG-TEMPLATE.MD-->
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+CloudSkills.fm Podcasting / YouTube
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+I am not sure if this counts as a day as if I stacked with work where I cannot have hands on the best form of education for me is to pick up a podcast or YouTube (if it doesnt involve actually watching) Last summer I found this podcast and coming from a non cloud and a newbie to the DevOps mantra and thought process, Mike does a great job of walking through many different interesting topics. 
 
-## Try yourself
+Today I listened to the episode with Mike and Christian Nunciato from Pulumi. It was 
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+[Episode 88 from CloudSkills] (https://cloudskills.io/blog/episode-088)
 
-### Step 1 — Summary of Step
+As I said I have been a complete n00b in this space for both cloud and other areas of DevOps, but the topic of Infrastructure as code has been of great interest mostly this has been focused on products from HashiCorp such as Terraform. 
 
-![Screenshot](https://via.placeholder.com/500x300)
+What is also really interesting is that Christian was at CHEF prior to Pulumi and this is another area I have been focused on with the creation of the Veeam CHEF cookbook for Day 0 deployment and operations. I cannot take all credit there but it was a steep learning curve to get there. 
 
-### Step 1 — Summary of Step
+I also listened to the finish of the show with Mike and Gwyneth Pena which led me to this #100DaysOfCloud 
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+Overall I have found the podcast a great resource to dig deeper into Cloud / DevOps / Kubernetes and also a lot about career advice. 
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[Twitter](https://twitter.com/MichaelCade1/status/1310551552030015488?s=20)
