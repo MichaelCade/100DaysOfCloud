@@ -1,52 +1,49 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<!-- This template removes the micro tutorial for a quicker post and removes images for a full template check out the 000-DAY-ARTICLE-LONG-TEMPLATE.MD-->
 
-# New post title here
+![placeholder image](https://resources-dot-atlasnet-eu.appspot.com/images/pages/training/gcp-header-logo.png)
+
+GCP Fundamentals with Pluralsight Training Course
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Firstly I have access to Pluralsight due to my particpiation within the VMware vExpert and Cisco Champion program so I decided that to force the learning project and focus of this 100 days Pluralsight is a great option to gather prepared and professional training that can be consumed pretty much anywhere. 
 
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+My focus for the 100 days is to grow my learning and knowledge with Google Cloud Platform, On the Pluralsight offerings Google have been adding a lot of new training courses there so this can make this journey easy to consume. 
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+- I specifically like learning either via video format (YoutTube) or via small chunks, My aim is to complete 1 hour a day (working day) to complete many different courses available. 
+- The follow on to this has to be hands on, This will follow each of the courses.
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+Google Cloud Platform Fundamentals
+by Howard Dierking [Course Link](https://app.pluralsight.com/library/courses/google-cloud-platform-fundamentals/table-of-contents)
 
-## Try yourself
+In total this course is only just over 2 hours but my plan is to commit at least 1 hour each day to complete a section of GCP enablement. 
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+I already have a good understanding of Microsoft Azure and AWS services at least from a fundamental stand point, This course from Howard covers the fundamentals a very 101 course to get up and started with GCP. 
+ 
+GCP services can easily be split into 3 areas of interest that we cover briefly in this and then we will choose to go deeper into some of these that will be relevant to my day job and interests as we work through. 
 
-### Step 1 — Summary of Step
+- Processing 
+- Storage 
+- Networking 
 
-![Screenshot](https://via.placeholder.com/500x300)
+We then go into a more detailed description of those the areas and in this section / day we went over the Compute Services (Processing) 
 
-### Step 1 — Summary of Step
+The easy way to understand this is by drawing a line from right to left. 
 
-![Screenshot](https://via.placeholder.com/500x300)
+on the left we have IaaS and on the right we have PaaS, starting from the right we have the following areas. 
 
-### Step 3 — Summary of Step
+- Compute Engine (IaaS)
+- Kubernetes Engine (CaaS)
+- App Engine 
+- Cloud Functions - (PaaS)
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+Tomorrow we will go into the storage and networking services and look into the security and tools available before then really getting into the weeds with the above compute and also some of the storage offerings available. 
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[Tweet](https://twitter.com/MichaelCade1/status/1311036454315974656?s=20)
