@@ -1,6 +1,6 @@
 <!-- This template removes the micro tutorial for a quicker post and removes images for a full template check out the 000-DAY-ARTICLE-LONG-TEMPLATE.MD-->
 
-![placeholder image](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/infrastructure-3.max-1000x1000.png)
+![placeholder image](https://miro.medium.com/max/11436/1*_t_eIOzvoMiYEZb33YIanA.png)
 
 # GCP Network Fundamentals
 
