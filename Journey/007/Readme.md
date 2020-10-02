@@ -2,7 +2,7 @@
 
 ![placeholder image](https://miro.medium.com/max/11436/1*_t_eIOzvoMiYEZb33YIanA.png)
 
-# GCP Network Fundamentals
+# GCP - Cloud 3.0, Security, Management & Tools
 
 ## Introduction
 
