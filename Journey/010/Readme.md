@@ -1,52 +1,75 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+![placeholder image](https://kubernetes.io/images/kubernetes-horizontal-color.png)
 
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Hands-On Practical - Kubernetes with Docker Containers
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+I have been reading a lot about what container engine can be used within Kubernetes and it is not only Docker but Docker seems to be top of mind and because of that it was the easiest one for me to pick up at least first. 
 
-## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+I have documented this really for myself to repeat over and over, but published so that people may need or want to use these steps to build out your own Kubernetes cluster, there are many walkthroughs out there though explaining really the same thing. 
 
-### Step 1 — Summary of Step
+In this walkthrough / post we are going to deploy some containers and get a NGINX container scaled up across my two nodes and make sure we can access the web front end. 
 
-![Screenshot](https://via.placeholder.com/500x300)
+```
+kubectl run myshell --rm -it --image busybox -- sh
+kubectl create deployment nginx --image=nginx
+```
+Increase the number of replicas for the nginx deployment. 
+```
+kubectl scale deploy nginx --replicas 2
+```
 
-### Step 1 — Summary of Step
+creating a service and exposing this to the network 
+```
+kubectl expose deployment nginx --type NodePort --port 80 
+```
 
-![Screenshot](https://via.placeholder.com/500x300)
+with this command you are going to understand the NodePort that you need to use to access the NGINX deployment from the worker nodes, this is very similar to the process we took for the kubernetes dashboard NodePort change. We will cover port forwarding in the next one. 
 
-### Step 3 — Summary of Step
+```
+kubectl describe svc nginx 
+```
 
-![Screenshot](https://via.placeholder.com/500x300)
+Open a web page with your worker IP address:NODEPORT Address and you should see the NGINX opening page
 
-## ☁️ Cloud Outcome
+now you can create a yaml file based on what you have created so far. 
+```
+kubectl get deploy nginx -o yaml > /tmp/nginx.yaml
+```
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+same for the service
+```
+kubectl get svc nginx -o yaml > /tmp/nginx-service.yaml
+```
 
-## Next Steps
+Then you can use these yaml files to deploy and version your deployments 
+```
+kubectl create -f /tmp/nginx.yaml 
+kubectl create -f /tmp/nginx-service.yaml 
+```
 
-✍️ Describe what you think you think you want to do next.
+if created through yaml you can delete with 
+```
+kubectl delete -f /tmp/nginx.yaml 
+kubectl delete -f /tmp/nginx-service.yaml 
+```
+I have been seeing and hearing a lot about helm in this learning journey around Kubernetes over the last 12 months. The best way to describe Helm is it is a package manager for Kubernetes. Helm makes things very simple when it comes to deploying packaged applications. I am going to add this here as we will need this in the next few posts. 
+
+Installing Helm - https://helm.sh/docs/intro/install/
+
+curl https://baltocdn.com/helm/signing.asc | sudo apt-key add -
+sudo apt-get install apt-transport-https --yes
+echo "deb https://baltocdn.com/helm/stable/debian/ all main" | sudo tee /etc/apt/sources.list.d/helm-stable-debian.list
+sudo apt-get update
+sudo apt-get install helm
+
+In the next post we will take a look at port forwarding and how we can then use a Windows machine (other OS can be used but we will be covering Windows) to connect to our kubernetes cluster remotely. 
+
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
+![social image](https://pbs.twimg.com/media/ElPzSFEWkAM28LJ?format=png&name=900x900)
 
-[link](link)
+[Tweet](https://twitter.com/MichaelCade1/status/1320666636630765569?s=20)

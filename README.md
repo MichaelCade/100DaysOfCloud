@@ -36,7 +36,7 @@ By the end of the challenge I would like to have a good foundational understandi
 - ☁️ 7 > [Day 7 - GCP, Cloud 3.0, Security & Tools](Journey/007/Readme.md)
 - ☁️ 8 > [Day 8 - Hands-On Practical - Kubernetes](Journey/008/Readme.md)
 - ☁️ 9 > [Day 9 - Hands-On Practical - Kubernetes Dashboard](Journey/009/Readme.md)
-- [ ] ☁️ 10 > [](Journey/010/Readme.md)
+- ☁️ 10 > [Day 10 - Hands-On Practical - Kubernetes with Docker Containers](Journey/010/Readme.md)
 
 ## Walking down the road
 
