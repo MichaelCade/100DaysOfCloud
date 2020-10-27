@@ -40,7 +40,7 @@ By the end of the challenge I would like to have a good foundational understandi
 
 ## Walking down the road
 
-- [ ] ☁️ 11 > [](Journey/011/Readme.md)
+- ☁️ 11 > [Hands-On Practical - Accessing Kubernetes Cluster from Windows Desktop](Journey/011/Readme.md)
 - [ ] ☁️ 12 > [](Journey/012/Readme.md)
 - [ ] ☁️ 13 > [](Journey/013/Readme.md)
 - [ ] ☁️ 14 > [](Journey/014/Readme.md)
