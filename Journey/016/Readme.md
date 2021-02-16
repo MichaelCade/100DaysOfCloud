@@ -1,6 +1,8 @@
 <!-- This is a template you can use for quick progress days. It removes a lot of the steps we encourage you to share in the longer template 000-DAY-ARTICLE-LONG-TEMPLATE.MD-->
-
+![placeholder image](https://vzilla.co.uk/wp-content/uploads/2021/02/020621_1142_VeeamBackup1.png)
 # Veeam Backup for Google Cloud Platform v1 - Blog Post
+
+
 
 ## Cloud Research
 

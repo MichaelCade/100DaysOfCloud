@@ -4,7 +4,7 @@
 
 ## Cloud Research
 
-After creating the blog I went and created a simple walkthrough on once you have deployed from the GCP marketplace and you define your access you can then start protecting your Google Compute instances. 
+After creating the blog I went and created a simple walkthrough on once you have deployed from the GCP marketplace and you define your access you can then start protecting your Google Compute instances. I may further this by adding additional content around how to deploy from the marketplace.  
 
 ## Social Proof
 
